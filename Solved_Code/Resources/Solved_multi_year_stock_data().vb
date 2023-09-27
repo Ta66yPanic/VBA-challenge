@@ -90,6 +90,13 @@ yearly_percent = yearly_change / ticker_open
 ws.Cells(table_row, 11).NumberFormat = "0.00%"
 ws.Cells(table_row, 11).Value = yearly_percent
 
+' Fill percentage change value with red for negative change and green for positive
+If yearly_percent >= 0 Then
+ws.Cells(table_row, 11).Interior.ColorIndex = 4
+Else
+ws.Cells(table_row, 11).Interior.ColorIndex = 3
+End If
+
 ' Print the total volume
 ws.Cells(table_row, 12).NumberFormat = "#,###"
 ws.Cells(table_row, 12).Value = total_volume
@@ -167,6 +174,3 @@ Next ws
 MsgBox ("Sequence Complete")
 
 End Sub
-
-
-
