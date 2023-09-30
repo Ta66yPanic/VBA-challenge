@@ -3,7 +3,7 @@ Completed by Daniel Stephens
 
 ## About this project
 
-The solution to this challenge seeks to parse through a large dataset of stock trading volume and determine the performance of each stock throughout the year. Running the solution script will output the total trading volume, value change, and percentage change for each stock. Additionally the highest and lowest performing stocks, as well as the stock with the highest trading volume is returned. The script will complete the output for every sheet within the workbook. 
+The purpose of this script is to parse through a large dataset of stock trading volume and determine the performance of each stock throughout the year. Running the script will output the total trading volume, value change, and percentage change for each stock. Additionally the highest and lowest performing stocks, as well as the stock with the highest trading volume is returned. The script will complete the output for every sheet within the workbook. 
 
 ## Accessing resources for this project
 
