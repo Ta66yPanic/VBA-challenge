@@ -1,4 +1,4 @@
-# VBA-challenge
+# VBA-Trading Volume-Analysis
 Completed by Daniel Stephens
 
 ## About this project
